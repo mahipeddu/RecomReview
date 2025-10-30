@@ -1,0 +1,50 @@
+{
+  "Sentence-Bert": {
+    "clustering": {
+      "silhouette_score": 0.107595294713974,
+      "davies_bouldin_index": 2.097294752502302,
+      "calinski_harabasz_index": 7.6932151756218845,
+      "n_clusters": 71
+    },
+    "consistency": {
+      "intra_author_mean": 0.43532249331474304,
+      "intra_author_std": 0.20673973858356476,
+      "inter_author_mean": 0.2390180230140686,
+      "inter_author_std": 0.13038620352745056,
+      "separation_margin": 0.19630447030067444,
+      "separation_ratio": 0.5822881934620723
+    }
+  },
+  "Lda": {
+    "clustering": {
+      "silhouette_score": 0.3696087270137545,
+      "davies_bouldin_index": 1.0006734666622485,
+      "calinski_harabasz_index": 90.52534004347007,
+      "n_clusters": 71
+    },
+    "consistency": {
+      "intra_author_mean": 0.5464011925373627,
+      "intra_author_std": 0.38600699292049606,
+      "inter_author_mean": 0.12643273413716014,
+      "inter_author_std": 0.23145785260560917,
+      "separation_margin": 0.4199684584002026,
+      "separation_ratio": 0.6801495739257456
+    }
+  },
+  "Tfidf": {
+    "clustering": {
+      "silhouette_score": 0.059171968531236616,
+      "davies_bouldin_index": 2.723444444103749,
+      "calinski_harabasz_index": 3.325944427913693,
+      "n_clusters": 71
+    },
+    "consistency": {
+      "intra_author_mean": 0.29766087872554586,
+      "intra_author_std": 0.15317758044311627,
+      "inter_author_mean": 0.16749451162776083,
+      "inter_author_std": 0.0632200758914678,
+      "separation_margin": 0.13016636709778504,
+      "separation_ratio": 0.601514652641992
+    }
+  }
+}
